@@ -377,9 +377,11 @@ $(function() {
   if($preview_links.length > 0){
     // Set styles
     var redmineBackgroundColor = $('#header').css('background-color');
+/*
     RedmineWikiTabPreview.Style
       .add('.jstEditor-preview-header ul li.active a {border-bottom-color: ' + redmineBackgroundColor + ';} ')
       .write();
+*/
 
     RedmineWikiTabPreview.EnsureAjaxCsrf.init();
     RedmineWikiTabPreview.EditorEvents.init();
